@@ -1,0 +1,50 @@
+{
+  "name": "react-animated-div-css",
+  "version": "1.0.1",
+  "description": "A lightweight CSS-based animation component for React with framer-motion-like API",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "animation",
+    "css",
+    "intersection-observer",
+    "framer-motion",
+    "typescript",
+    "nextjs"
+  ],
+  "author": "Kosuke Mizumura",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "rollup": "^4.3.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MizumuraKosuke/react-animated-div-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MizumuraKosuke/react-animated-div-css/issues"
+  },
+  "homepage": "https://github.com/MizumuraKosuke/react-animated-div-css#readme"
+}
