@@ -162,28 +162,6 @@ function CustomComponent() {
 }
 ```
 
-## Next.js Integration
-
-Works seamlessly with Next.js App Router. The components are marked with `'use client'` so they work as Client Components while your page components can remain Server Components:
-
-```tsx
-// app/page.tsx (Server Component)
-import { AnimatedDiv } from 'react-css-inview'
-
-export default function HomePage() {
-  return (
-    <main>
-      <AnimatedDiv
-        initial={{ opacity: 0, transform: 'translateY(20px)' }}
-        animate={{ opacity: 1, transform: 'translateY(0px)' }}
-      >
-        <h1>Welcome to my site</h1>
-      </AnimatedDiv>
-    </main>
-  )
-}
-```
-
 ## Migration from framer-motion
 
 Replace framer-motion components easily:

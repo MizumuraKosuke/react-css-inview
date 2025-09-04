@@ -1,5 +1,3 @@
-'use client'
-
 import React, { CSSProperties } from 'react'
 import { useInView } from './useInView'
 import { AnimatedDivProps } from './types'
