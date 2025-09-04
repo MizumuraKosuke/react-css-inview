@@ -1,4 +1,4 @@
-# react-animated-div-css
+# react-css-inview
 
 A lightweight CSS-based animation component for React with a framer-motion-like API. Perfect for Next.js applications where you want smooth animations without the bundle size overhead of framer-motion.
 
@@ -15,17 +15,17 @@ A lightweight CSS-based animation component for React with a framer-motion-like 
 ## Installation
 
 ```bash
-npm install react-animated-div-css
+npm install react-css-inview
 # or
-yarn add react-animated-div-css
+yarn add react-css-inview
 # or
-pnpm add react-animated-div-css
+pnpm add react-css-inview
 ```
 
 ## Basic Usage
 
 ```tsx
-import { AnimatedDiv } from 'react-animated-div-css'
+import { AnimatedDiv } from 'react-css-inview'
 
 function MyComponent() {
   return (
@@ -139,7 +139,7 @@ function MyComponent() {
 You can also use the `useInView` hook directly for custom implementations:
 
 ```tsx
-import { useInView } from 'react-animated-div-css'
+import { useInView } from 'react-css-inview'
 
 function CustomComponent() {
   const { ref, isInView } = useInView({
@@ -168,7 +168,7 @@ Works seamlessly with Next.js App Router. The components are marked with `'use c
 
 ```tsx
 // app/page.tsx (Server Component)
-import { AnimatedDiv } from 'react-animated-div-css'
+import { AnimatedDiv } from 'react-css-inview'
 
 export default function HomePage() {
   return (

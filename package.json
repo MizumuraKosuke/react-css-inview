@@ -1,6 +1,6 @@
 {
-  "name": "react-animated-div-css",
-  "version": "1.0.1",
+  "name": "react-css-inview",
+  "version": "1.0.0",
   "description": "A lightweight CSS-based animation component for React with framer-motion-like API",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MizumuraKosuke/react-animated-div-css.git"
+    "url": "https://github.com/MizumuraKosuke/react-css-inview.git"
   },
   "bugs": {
-    "url": "https://github.com/MizumuraKosuke/react-animated-div-css/issues"
+    "url": "https://github.com/MizumuraKosuke/react-css-inview/issues"
   },
-  "homepage": "https://github.com/MizumuraKosuke/react-animated-div-css#readme"
+  "homepage": "https://github.com/MizumuraKosuke/react-css-inview#readme"
 }
